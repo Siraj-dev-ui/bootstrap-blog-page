@@ -1,0 +1,87 @@
+.low_opacity_bg_image {
+  /* --bg-image: url('https://media.istockphoto.com/id/535695503/photo/pakistan-monument-islamabad.jpg?s=612x612&w=0&k=20&c=bNqjdf8L-5igcRB89DdMgx0kNOmyeo1J_zzXmoxxl8w='); */
+  /* --bg-image-opacity: 0.95; */
+
+  background-image: url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c21pbGluZyUyMG9mZmljZXxlbnwwfHwwfHw%3D&w=1000&q=80');
+
+  /* background-image:  */
+  background-size: auto;
+  background-position: center;
+  /* opacity: .27;  */
+  position: relative;
+  isolation: isolate;
+}
+.low_opacity_bg_image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: gray;
+  z-index: -1;
+  opacity: 0.5;
+
+  /* background-image: var(--bg-image-opacity);
+     background-size: cover;
+     background-position: center; */
+}
+
+.icon_white {
+  color: white;
+}
+
+.blog_post_text_bg {
+  background-color: rgb(219, 240, 253);
+}
+
+.tag_cloud_bullets_bg {
+  background-color: rgb(219, 240, 253);
+}
+.bg_plaintext {
+  background-color: rgb(219, 240, 253);
+}
+
+.absolute-text_margin {
+  margin-left: 12px;
+}
+
+.img_cover {
+  background-size: cover;
+  background-position: center;
+}
+.img_center {
+  background-size: auto;
+  background-position: center;
+}
+.img_contain {
+  background-size: contain;
+  background-position: contain;
+}
+
+.logo_size {
+  width: 100px;
+  height: 100px;
+}
+
+.color_footer_main {
+  background-color: #023047;
+}
+
+.color_footer_signup_button {
+  background-color: #023047;
+}
+
+.height-footer {
+  height: 350px;
+}
+
+.margin_top_extra {
+  margin-top: -10px;
+}
+
+.bg_sub_footer {
+  background-color: #0e2029;
+}
+
+.footer_arrow_margin {
+  margin-top: -10px;
+  opacity: 0.6;
+}
